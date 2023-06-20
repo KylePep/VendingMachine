@@ -21,7 +21,7 @@ class ObservableAppState extends EventEmitter {
     new Snack({ name: 'Nitro White Coffee', price: 3.29, imgUrl: 'https://images.unsplash.com/photo-1626868180643-b6c559b6f66b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80' }),
     new Snack({ name: 'Super Serum', price: 999.99, imgUrl: 'https://images.unsplash.com/photo-1602928309809-776bf9db8658?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=698&q=80' }),
     new Snack({ name: 'Hippy Dippy', price: .25, imgUrl: 'https://images.unsplash.com/photo-1592147164960-236b56dd18e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80' }),
-    new Snack({ name: 'Whole Pinapple', price: 4.69, imgUrl: 'https://images.unsplash.com/photo-1490885578174-acda8905c2c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80' }),
+    new Snack({ name: 'Whole Pineapple', price: 4.69, imgUrl: 'https://images.unsplash.com/photo-1490885578174-acda8905c2c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80' }),
   ]
 
   // NOTE Used to load initial data
