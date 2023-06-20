@@ -1,0 +1,8 @@
+/* BASIC STYLES HERE */
+
+.snacks-img {
+  height: 35vh;
+  width: 20vh;
+  object-fit: cover;
+  border-radius: 10px;
+}
