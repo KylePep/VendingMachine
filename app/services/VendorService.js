@@ -23,7 +23,7 @@ class VendorService {
     } {
       let yourChange = (AppState.money -= foundSnack.price)
       AppState.money = 0
-      Pop.success(`Payment successful, your change is ${(yourChange).toFixed(2)}`)
+      Pop.success(`Payment for: ${foundSnack.name} successful, your change is ${(yourChange).toFixed(2)}`)
 
     }
   }
