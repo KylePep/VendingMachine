@@ -41,14 +41,15 @@
   <main class="container-fluid">
     <section class="row d-flex justify-content-center">
       <button onclick="app.MoneyController.addMoney()" class="btn btn-success rounded col-4">Add Money: $1.25</button>
-      <form onsubmit="app.PlayerController.addPlayer(event)" class="col-4">
+      <!-- <form onsubmit="app.MoneyController.addPayment(event)" class="col-4">
         <div>
           <label for="Payment">Payment</label>
-          <input type="text" minlength="3" maxlength="5" name="payment" required>
-        </div>
-        <div>
-          <button type="submit btn btn-success"> Add Payment</button>
-        </div>
+          <input type="number" placeholder="$0.00" minlength="3" maxlength="5" name="payment" required>
+          <output></output>
+        </div> -->
+      <!-- <div>
+        <button type="submit btn btn-success"> Add Payment</button>
+      </div> -->
       </form>
       <div id="moneyCurrent" class="col-2 text-center">Money:</div>
     </section>

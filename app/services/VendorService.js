@@ -21,7 +21,10 @@ class VendorService {
       Pop.error('Not Enough Money')
       return
     } {
-      AppState.money -= foundSnack.price
+      let yourChange = (AppState.money -= foundSnack.price)
+      AppState.money = 0
+      Pop.success(`Payment successful, your change is ${(yourChange).toFixed(2)}`)
+
     }
   }
   test() {
